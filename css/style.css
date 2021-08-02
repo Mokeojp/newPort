@@ -98,10 +98,20 @@ nav ul {
     
 /*メイン画像
 -------------------------------------*/
-.mainimg img {
+.big-bg {
+    width: 100vw;
+}
+
+#home .page-title {
+    text-transform: none;
+}
+#video {
+    width: 100vw;
+}
+/*.mainimg img {
     width: 100vw;
     height: 80vh;
-}
+} */
 
 /*メインコンテンツ
 -------------------------------------*/
@@ -121,6 +131,11 @@ section {
 .catch {
     text-align: center;
 }
+#prof {
+    width: 300px;
+    height: 300px;
+}
+
 .catch h2 {
     padding-bottom: 1rem;
 }
@@ -204,6 +219,15 @@ footer h4 {
 .header-box {
 	display: none;
 }	
+/*トップ動画
+-------------------------------------*/
+#video {
+    width: 100vw;
+}
+#prof {
+    width: 100px;
+    height: 100px;
+}
 /*お問い合わせ
 -------------------------------------*/
 .table th {
